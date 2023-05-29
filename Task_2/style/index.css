@@ -1,0 +1,36 @@
+.header{
+    background-color: rgb(161, 191, 202);
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+.main{
+    background-color: rgb(233, 204, 140);
+    display: flex;
+}
+
+.bl{
+    background-color: rgb(226, 185, 97);
+    width: 400px;
+
+}
+
+.title{
+
+}
+
+.bl_parts{
+display: flex;
+}
+
+.side_bl{
+    background-color: rgb(105, 168, 105);
+}
+
+.footer{
+    background-color: rgb(161, 191, 202);
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
