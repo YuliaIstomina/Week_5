@@ -2,29 +2,51 @@
     background-color: rgb(161, 191, 202);
     display: flex;
     justify-content: center;
+    flex: 0 0 content;
     height: 40px;
 }
 
 .main{
     background-color: rgb(233, 204, 140);
     display: flex;
+    flex: 1;
+    justify-content: stretch;
+    height: 400px;
 }
 
 .bl{
+    display: flex;
+    justify-content: space-between;
     background-color: rgb(226, 185, 97);
-    width: 400px;
-
 }
 
 .title{
+}
 
+.bl_pa{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-grow: 1;
+    flex-wrap: wrap;
 }
 
 .bl_parts{
 display: flex;
+justify-content: space-between;
+align-items: center;
+justify-content: center;
+height: 100px;
+width: 100px;
+background-color: rgb(226, 204, 140);
+border-radius: 10px;
+/*Границы для понимания как разъезжаются блоки*/
+border: 2px solid green;
 }
 
 .side_bl{
+    display: flex;
+    align-items: stretch;
     background-color: rgb(105, 168, 105);
 }
 
@@ -32,5 +54,15 @@ display: flex;
     background-color: rgb(161, 191, 202);
     display: flex;
     justify-content: space-between;
+    flex: 0 0 content;
     height: 40px;
+}
+
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(202, 210, 212);
+    /*Границы для понимания как разъезжаются блоки*/
+    border: 2px solid green;
 }
