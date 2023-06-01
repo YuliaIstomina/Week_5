@@ -1,0 +1,275 @@
+.header{
+    position: absolute;
+    height: 109px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+}
+.body{
+    background: #1B3764;
+}
+h1, h2, h3, a, button{
+    font-family: 'Inter', sans-serif;
+}
+.logo_sm{
+    position: absolute;
+    height: 69px;
+    left: 0%;
+    right: 58.11%;
+    top: 20px;
+}
+.logo{
+    position: absolute;
+    height: 35px;
+    left: 0%;
+    right: 78.15%;
+    top: calc(50% - 35px/2 - 2px);
+    border-radius: 0px;
+}
+#logo_book{
+    position: absolute;
+    left: 0%;
+    right: 79.41%;
+    top: 8.57%;
+    bottom: 11.43%;
+    background: #FFCA42;
+}
+#logo_pages{
+    position: absolute;
+    left: 29.43%;
+    right: 2.18%;
+    top: 21.82%;
+    bottom: 2.73%;
+    background: #1B3764;
+}
+.navigation{
+    position: absolute;
+    height: 45px;
+    left: 28.28%;
+    right: 37.75%;
+    top: calc(50% - 45px/2);
+}
+.navigation_sm{
+    display: flex;
+    justify-content: space-around;
+}
+.navigation_sm1{
+    background-color: white;
+    padding: 20px;
+}
+.menu{
+    position: absolute;
+    height: 69px;
+    left: 41.89%;
+    right: 0%;
+    top: 20px;
+}
+.menu_1{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    letter-spacing: 0.17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+}
+.yellow_link{
+    color: #FFCA42;
+}
+.grey_link{
+    color: #F6F8FC;
+
+}
+.submit_button{
+    background-color: #FFCA42;
+    color: #1B3764;
+    border: 2px solid #FFCA42;
+    border-radius: 0px;
+    position: absolute;
+    height: 66px;
+    left: 70.61%;
+    right: 0%;
+    top: calc(50% - 66px/2 + 0.5px);
+}
+.submit_button_text{
+    position: absolute;
+    height: 29px;
+    left: 23.42%;
+    right: 23.42%;
+    top: calc(50% - 29px/2 - 0.5px);
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+/* identical to box height, or 150% */
+    letter-spacing: 0.57px;
+    text-transform: capitalize;
+    color: #1B3764;
+    background: #FFCA42;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+a:visited {
+    color: #b36f22;
+}
+a:hover {
+    text-shadow: 1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+}
+.main{
+    position: absolute;
+height: 800px;
+left: 0%;
+right: 0%;
+top: 209px;
+}
+#img_the_dark_light{
+    position: absolute;
+height: 800px;
+left: 52.85%;
+right: 1.62%;
+top: calc(50% - 800px/2);
+background: url(.png);
+filter: drop-shadow(-1px 2px 11px rgba(0, 0, 0, 0.2));
+border-radius: 0px;
+}
+.main_text{
+    position: absolute;
+height: 506px;
+left: 1.79%;
+right: 52.95%;
+top: 147px;
+}
+.welcome{
+    position: absolute;
+    height: 36px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+}
+#welcome_t{
+    position: absolute;
+    height: 36px;
+    left: 8.27%;
+    right: 54.84%;
+    top: calc(50% - 36px/2);
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 36px;
+    /* identical to box height, or 171% */
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+#welcome_t2{
+    position: absolute;
+    height: 78px;
+    left: -0.05%;
+    right: 13.03%;
+    top: -5px;
+    
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+    /* identical to box height, or 122% */
+        letter-spacing: 1.3px;
+        color: #FFFFFF;
+}
+#welcome_tt2{
+    position: absolute;
+height: 78px;
+left: -0.05%;
+right: 19.32%;
+top: 73px;
+font-family: 'Cardo';
+font-style: normal;
+font-weight: 400;
+font-size: 63px;
+line-height: 78px;
+/* identical to box height, or 124% */
+letter-spacing: 1.3px;
+color: #FFFFFF;
+}
+#welcome_ttt2{
+    position: absolute;
+height: 29px;
+left: -0.05%;
+right: 4.54%;
+top: 175px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 158% */
+color: #B4C7E7;
+}
+#welcome_tttt2{
+    position: absolute;
+    height: 29px;
+    left: -0.05%;
+    right: 26.63%;
+    top: 203px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 158% */
+    color: #B4C7E7;
+}
+.welcome3{
+    position: absolute;
+    height: 88px;
+    left: 0%;
+    right: 0%;
+    top: 313px;
+}
+.welcome4{
+    position: absolute;
+    height: 105px;
+    left: 0%;
+    right: 0%;
+    top: 401px;
+}
+.submit_button1{
+    position: absolute;
+    height: 66px;
+    left: -0.05%;
+    right: 62.32%;
+    top: calc(50% - 66px/2 + 1px);
+}
+.frame_pages{
+    position: absolute;
+    height: 65px;
+    left: 0%;
+    right: 71.28%;
+    top: 40px;
+}
+.frame_Length{
+    position: absolute;
+    height: 65px;
+    left: 28.72%;
+    right: 41.13%;
+    top: 40px;
+}
+.frame_rating{
+    position: absolute;
+height: 65px;
+left: 58.87%;
+right: 0%;
+top: 40px;
+}
