@@ -1,19 +1,18 @@
 .header{
     display: flex;
-    /*Почему элементы не выравниваются относительно baseline, а center да*/
-    align-content: center;
-    position: absolute;
-    height: 109px;
-    left: 0%;
-    right: 0%;
-    top: 0px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px;
 }
-.body{
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
     background: #1B3764;
 }
-h1, h2, h3, a, button{
-    font-family: 'Inter', sans-serif;
-}
+
 .logo_sm{
     position: absolute;
     height: 69px;
@@ -21,6 +20,7 @@ h1, h2, h3, a, button{
     right: 58.11%;
     top: 20px;
 }
+
 .logo{
     position: absolute;
     height: 35px;
@@ -29,6 +29,7 @@ h1, h2, h3, a, button{
     top: calc(50% - 35px/2 - 2px);
     border-radius: 0px;
 }
+
 #logo_book{
     position: absolute;
     left: 0%;
@@ -37,6 +38,7 @@ h1, h2, h3, a, button{
     bottom: 11.43%;
     background: #FFCA42;
 }
+
 #logo_pages{
     position: absolute;
     left: 29.43%;
@@ -45,6 +47,7 @@ h1, h2, h3, a, button{
     bottom: 2.73%;
     background: #1B3764;
 }
+
 .navigation{
     position: absolute;
     height: 45px;
@@ -52,14 +55,17 @@ h1, h2, h3, a, button{
     right: 37.75%;
     top: calc(50% - 45px/2);
 }
+
 .navigation_sm{
     display: flex;
     justify-content: space-around;
 }
+
 .navigation_sm1{
     background-color: white;
     padding: 20px;
 }
+
 .menu{
     display: flex;
     align-items: center;
@@ -68,9 +74,8 @@ h1, h2, h3, a, button{
     left: 41.89%;
     right: 0%;
     top: 20px;
-        /*НЕ ЗАБЫТЬ УДАЛИТЬ ГРАНИЦЫ*/
-        border: 2px solid green;
 }
+
 .menu_1{
     display: flex;
     justify-content: space-around;
@@ -81,20 +86,34 @@ h1, h2, h3, a, button{
     font-weight: 400;
     font-size: 17px;
     line-height: 26px;
-        /*НЕ ЗАБЫТЬ УДАЛИТЬ ГРАНИЦЫ*/
-        border: 2px solid green;
 }
+
 .yellow_link{
     color: #FFCA42;
 }
+
 .grey_link{
     color: #F6F8FC;
-
 }
+
+.submit_button_text{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 0.57px;
+    text-transform: capitalize;
+    color: #1B3764;
+    background-color: #FFCA42;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
 .submit_button{
     display: flex;
-    justify-content: flex-end;
-    background-color: #FFCA42;
+    justify-content: center;
     color: #1B3764;
     border: 2px solid #FFCA42;
     border-radius: 0px;
@@ -104,38 +123,26 @@ h1, h2, h3, a, button{
     right: 0%;
     top: calc(50% - 66px/2 + 0.5px);
 }
-.submit_button_text{
-    position: absolute;
-    height: 29px;
-    left: 23.42%;
-    right: 23.42%;
-    top: calc(50% - 29px/2 - 0.5px);
-    font-family: 'Cardo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 28px;
-/* identical to box height, or 150% */
-    letter-spacing: 0.57px;
-    text-transform: capitalize;
-    color: #1B3764;
-    background: #FFCA42;
-}
+
 a{
     text-decoration: none;
 }
+
 ul{
     list-style-type: none;
 }
+
 a:visited {
     color: #b36f22;
 }
+
 a:hover {
     text-shadow: 1px 0 1px #000, 
     0 1px 1px #000, 
     -1px 0 1px #000, 
     0 -1px 1px #000;
 }
+
 .main{
     position: absolute;
 height: 800px;
@@ -143,6 +150,7 @@ left: 0%;
 right: 0%;
 top: 209px;
 }
+
 #img_the_dark_light{
     position: absolute;
 height: 800px;
@@ -153,6 +161,7 @@ background: url(.png);
 filter: drop-shadow(-1px 2px 11px rgba(0, 0, 0, 0.2));
 border-radius: 0px;
 }
+
 .main_text{
     position: absolute;
 height: 506px;
@@ -160,6 +169,7 @@ left: 1.79%;
 right: 52.95%;
 top: 147px;
 }
+
 .welcome{
     position: absolute;
     height: 36px;
@@ -167,6 +177,7 @@ top: 147px;
     right: 0%;
     top: 0px;
 }
+
 #welcome_t{
     position: absolute;
     height: 36px;
@@ -178,11 +189,11 @@ top: 147px;
     font-weight: 400;
     font-size: 21px;
     line-height: 36px;
-    /* identical to box height, or 171% */
     letter-spacing: 1.2px;
     text-transform: capitalize;
     color: #FFFFFF;
 }
+
 #welcome_t2{
     position: absolute;
     height: 78px;
@@ -195,10 +206,10 @@ top: 147px;
     font-weight: 400;
     font-size: 64px;
     line-height: 78px;
-    /* identical to box height, or 122% */
         letter-spacing: 1.3px;
         color: #FFFFFF;
 }
+
 #welcome_tt2{
     position: absolute;
 height: 78px;
@@ -210,10 +221,10 @@ font-style: normal;
 font-weight: 400;
 font-size: 63px;
 line-height: 78px;
-/* identical to box height, or 124% */
 letter-spacing: 1.3px;
 color: #FFFFFF;
 }
+
 #welcome_ttt2{
     position: absolute;
 height: 29px;
@@ -225,9 +236,9 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 28px;
-/* identical to box height, or 158% */
 color: #B4C7E7;
 }
+
 #welcome_tttt2{
     position: absolute;
     height: 29px;
@@ -239,9 +250,9 @@ color: #B4C7E7;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    /* identical to box height, or 158% */
     color: #B4C7E7;
 }
+
 .welcome3{
     position: absolute;
     height: 88px;
@@ -249,6 +260,7 @@ color: #B4C7E7;
     right: 0%;
     top: 313px;
 }
+
 .welcome4{
     position: absolute;
     height: 105px;
@@ -256,6 +268,7 @@ color: #B4C7E7;
     right: 0%;
     top: 401px;
 }
+
 .submit_button1{
     position: absolute;
     height: 66px;
@@ -263,6 +276,7 @@ color: #B4C7E7;
     right: 62.32%;
     top: calc(50% - 66px/2 + 1px);
 }
+
 .frame_pages{
     position: absolute;
     height: 65px;
@@ -270,6 +284,7 @@ color: #B4C7E7;
     right: 71.28%;
     top: 40px;
 }
+
 .frame_Length{
     position: absolute;
     height: 65px;
@@ -277,6 +292,7 @@ color: #B4C7E7;
     right: 41.13%;
     top: 40px;
 }
+
 .frame_rating{
     position: absolute;
 height: 65px;
