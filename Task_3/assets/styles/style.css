@@ -115,7 +115,7 @@ body{
     display: flex;
     justify-content: center;
     color: #1B3764;
-    border: 2px solid #FFCA42;
+    border: none;
     border-radius: 0px;
     position: absolute;
     height: 66px;
